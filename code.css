@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  font-family: "Arial Black", sans-serif
+
+}
+header{
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#chatbox {
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: start;
+    overflow-y: scroll;
+}
+
+body{
+  background-color: purple;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 0 5%;
+}
